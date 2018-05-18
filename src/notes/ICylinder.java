@@ -26,8 +26,17 @@ public class ICylinder  extends ICircle
 	{
 		this.height = height;
 	}
+	public double getArea()
+	{
+		return 2*PI*radius*height;
+	}
 	public double getVolume()
 	{
-		return getArea()*height;
+		return super.getArea()*height;
+	}
+	@Override
+	public String toString()
+	{
+		return "\nCylinder: subclass of "+super.toString() +" height = "+height;
 	}
 }

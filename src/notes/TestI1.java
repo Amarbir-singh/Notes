@@ -7,7 +7,7 @@ public class TestI1 {
 	    	ICylinder c1 = new ICylinder();
 	    	
 	    	
-	    	System.out.println(i1.getArea());
+	    	System.out.println(c1.getArea());
 	    	System.out.println(c1.getRadius());
 	    	System.out.println("Cylinder:"
 	    			+ "  radius = "+c1.getRadius()
@@ -26,7 +26,8 @@ public class TestI1 {
 	    			+ "  radius = "+c3.getRadius()
 	    			+ "  height = "+ c3.getHeight()
 	    			+ "  bas area = "+c3.getArea()
-	    			+ "  volume = "+c3.getVolume());
+	    			+ "  volume = "+c3.getVolume()
+	    			+c3.toString());
 	}
 
 }
