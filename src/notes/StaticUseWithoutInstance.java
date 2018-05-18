@@ -28,9 +28,7 @@ public class StaticUseWithoutInstance
          * below warning.
          * 
          * The static field StaticUseWithoutInstance.i should be accessed in a static way
-         * 
-         * 
-         * */
+         */
 		System.out.println(obj1.i);
 		obj1.method();
 	}
